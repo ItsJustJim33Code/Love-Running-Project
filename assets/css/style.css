@@ -79,7 +79,7 @@ nav {
 }
 
 .nav-toggle-label {
-    fone-size: 2rem;
+    font-size: 2rem;
 }
 
 
@@ -95,6 +95,7 @@ main {
     background-color: lightcoral;
     /* "Push footer down using flex styles". */
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 footer {
