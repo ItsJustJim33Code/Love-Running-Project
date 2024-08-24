@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* generic project styles */
-    color: 3a3a3a;
+    color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
 
@@ -32,6 +32,25 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#home {
+    margin-top: 1em;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid;
+    border-color: #3a3a3a
 }
 
 h1 {
