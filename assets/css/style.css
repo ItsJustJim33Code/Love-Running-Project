@@ -104,6 +104,10 @@ footer {
 
 }
 
+footer li {
+    display: inline-block;
+}
+
 
 /* Media Queries - tablets and larger (768px and up)*/
 
