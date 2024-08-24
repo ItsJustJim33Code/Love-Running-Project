@@ -99,14 +99,22 @@ main {
     margin-top: 40px;
 }
 
-footer {
-    background-color: lightgreen;
+/* Footer */
 
+#footer-socials {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-footer li {
-    display: inline-block;
+#footer-socials i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
+
 
 
 /* Media Queries - tablets and larger (768px and up)*/
