@@ -41,7 +41,31 @@
     </header>
     
     <main>
-        Sign-Up
+        <form id="sign-upform" post="https://formdump.codeinstitute.net">
+            <label for="sign-upform"><h1><i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!</h1></label>
+            <label for="first-name">First Name:</label>
+            <input id="first-name" class="text-input" type="text"></input>
+            <br>
+            <label for="last-name">Last Name:</label>
+            <input id="last-name" class="text-input" type="text"></input>
+            <br>
+            <label for="email">Email Address:</label>
+            <input id="email" class="text-input" type="email"></input>
+            <br>
+            <div>
+                <input id="road" type="radio" name="road" value="road" checked>
+                <label for="road">Road</label>
+            </div>
+            <div>
+                <input id="Trail" type="radio" name="Trail" value="Trail">
+                <label for="Trail">Trail</label>
+            </div>
+            <div>
+                <input id="both" type="radio" name="Both" value="Both">
+                <label for="both">Both</label>
+            </div>
+            <input id="submit" class="join-button" type="submit" value="Lets Run!">
+        </form>
     </main>
     <footer>
         <ul id="social-networks">
