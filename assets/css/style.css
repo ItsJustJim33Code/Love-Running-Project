@@ -184,8 +184,18 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
-#footer-socials {
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -193,7 +203,7 @@ main {
     list-style-type: none;
 }
 
-#footer-socials i {
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
