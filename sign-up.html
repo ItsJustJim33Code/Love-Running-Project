@@ -22,7 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     -->
 </head>
-    <body>
+
+<body>
     <header>
         <a href="index.html">
             <h1 id="logo">Love Running</h1>
@@ -33,63 +34,71 @@
         </label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" id="home" >Home</a></li>
+                <li><a href="index.html" id="home">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="sign-up.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <form id="sign-upform" post="https://formdump.codeinstitute.net">
-            <label for="sign-upform"><h1><i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!</h1></label>
-            <label for="first-name">First Name:</label>
-            <input id="first-name" class="text-input" type="text"></input>
-            <br>
-            <label for="last-name">Last Name:</label>
-            <input id="last-name" class="text-input" type="text"></input>
-            <br>
-            <label for="email">Email Address:</label>
-            <input id="email" class="text-input" type="email"></input>
-            <br>
+
+    <main id="signup">
+        <section>
             <div>
-                <input id="road" type="radio" name="road" value="road" checked>
-                <label for="road">Road</label>
+                <form id="sign-upform" post="https://formdump.codeinstitute.net">
+                    <label for="sign-upform">
+                        <h2><i class="fa-solid fa-heart-pulse"></i>Lets get you signed up!</h2>
+                    </label>
+                    <label for="first-name">First Name:</label>
+                    <input id="first-name" class="text-input" type="text"></input>
+                    <br>
+                    <label for="last-name">Last Name:</label>
+                    <input id="last-name" class="text-input" type="text"></input>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input id="email" class="text-input" type="email"></input>
+                    <br>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="road">Road</label>
+                            <input id="road" type="radio" name="running-preference" value="road" required checked>
+                        </div>
+                        <div>
+                            <label for="Trail">Trail</label>
+                            <input id="Trail" type="radio" name="running-preference" value="Trail" required>
+                        </div>
+                        <div>
+                            <label for="both">Both</label>
+                            <input id="both" type="radio" name="running-preference" value="Both" reguired>
+                        </div>
+                    </div>
+                    <input id="submit" class="join-button" type="submit" value="Lets Run!">
+                </form>
             </div>
-            <div>
-                <input id="Trail" type="radio" name="Trail" value="Trail">
-                <label for="Trail">Trail</label>
-            </div>
-            <div>
-                <input id="both" type="radio" name="Both" value="Both">
-                <label for="both">Both</label>
-            </div>
-            <input id="submit" class="join-button" type="submit" value="Lets Run!">
-        </form>
+        </section>
     </main>
     <footer>
         <ul id="social-networks">
-            <li><a href="https://facebook.com" target="_blank" rel="noopener" 
-                aria-label="visit our facebook page on a new tab">
-                <i class="fa-brands fa-facebook"></i></a>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page on a new tab">
+                    <i class="fa-brands fa-facebook"></i></a>
             </li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener" 
-                aria-label="visit our Instagram page on a new tab">
-                <i class="fa-brands fa-instagram"></i></a>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="visit our Instagram page on a new tab">
+                    <i class="fa-brands fa-instagram"></i></a>
             </li>
-            <li><a href="https://www.x.com" target="_blank" rel="noopener" 
-                aria-label="visit our Twitter page on a new tab">
-                <i class="fa-brands fa-twitter"></i></a>
+            <li><a href="https://www.x.com" target="_blank" rel="noopener"
+                    aria-label="visit our Twitter page on a new tab">
+                    <i class="fa-brands fa-twitter"></i></a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" 
-                aria-label="visit our Youtube page on a new tab">
-                <i class="fa-brands fa-youtube"></i></a>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="visit our Youtube page on a new tab">
+                    <i class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
     </footer>
 
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/0995000102.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0995000102.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
