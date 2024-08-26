@@ -264,6 +264,21 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+}
+
+/* Large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
